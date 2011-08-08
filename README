@@ -3,7 +3,7 @@
     An easy way to grab a color from everywhere.																			
   
   Author
-    Átila Camurça - camurca.home@gmail.com
+    Átila Camurça - camurca.home_AT_gmail.com
 
   How to use
     You just need to have zenity installed. Then in a console just hit ./color-grab.sh
