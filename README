@@ -6,7 +6,8 @@
     Átila Camurça - camurca.home_AT_gmail.com
 
   How to use
-    You just need to have zenity installed. Then in a console just hit: $ sh color-grab.sh
+    You just need to have zenity installed. Then in a console just hit:
+      $ sh color-grab.sh
 
   Install zenity on Ubuntu
     $ sudo apt-get install zenity
