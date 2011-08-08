@@ -5,6 +5,11 @@
   Author
     Átila Camurça - camurca.home@gmail.com
 
-  Visit: http://mad3linux.blogspot.com/
+  How to use
+    You just need to have zenity installed. Then in a console just hit ./color-grab.sh
 
+  Install zenity on Ubuntu
+    $ sudo apt-get install zenity
+
+  Visit: http://mad3linux.blogspot.com/
 ========================================================
