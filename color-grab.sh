@@ -1,7 +1,7 @@
 #!/bin/bash
 #       app for grab a color from everywhere.
 #       
-#       Copyright 2011 Átila Camurça <atila@atilacamurca-desktop>
+#       Copyleft 2011 Átila Camurça <camurca.home@gmail.com>
 #       
 #       This program is free software; you can redistribute it and/or modify
 #       it under the terms of the GNU General Public License as published by
