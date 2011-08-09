@@ -1,4 +1,6 @@
 ========================================================
-* test if cancel was hitted.
-* make a .deb archive.
+  * test if cancel was hitted.
+  * make a .deb archive.
+  * test if zenity is installed.
+  * test the version.
 ========================================================

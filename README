@@ -12,5 +12,7 @@
   Install zenity on Ubuntu
     $ sudo apt-get install zenity
 
+  OBS.: this script only works on zenity version 2.32 or greater.
+
   Visit: http://mad3linux.blogspot.com/
 ========================================================
