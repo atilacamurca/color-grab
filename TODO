@@ -1,6 +1,6 @@
 ========================================================
   [DONE] test if cancel was hitted.
-  * make a .deb archive.
+  [DONE] make a .deb archive.
   [DONE] test if zenity is installed.
   [DONE] test the version is greater than 2.32.
 ========================================================

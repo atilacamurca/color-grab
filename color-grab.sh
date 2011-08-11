@@ -30,10 +30,11 @@ if [ "$(echo $VERSION '<' $REQUIRED_VERSION | bc)" -eq 1 ]; then
 	echo "Color-grab needs zenity 2.32 or greater."; exit 1
 fi
 
-COLOR=$($ZENITY --color-selection --title "Color-grab: Color Selection" --show-palette)
+ICON="/usr/share/icons/color-grab.png"
+COLOR=$($ZENITY --color-selection --title "Color-grab: Color Selection" --show-palette --window-icon $ICON)
 if [ -z $COLOR ]; then
 	echo "Cancel was pressed. Good-bye."; exit 1
 fi
 RGB="$(echo $COLOR | cut -c 2-3)$(echo $COLOR | cut -c 6-7)$(echo $COLOR | cut -c 10-11)"
-$ZENITY --info --title "Color-grab" --text "Selected color: #$(echo $RGB | awk '{print toupper($0)}')"
+$ZENITY --info --title "Color-grab" --text "Selected color: #$(echo $RGB | awk '{print toupper($0)}')" --window-icon $ICON
 exit 0
