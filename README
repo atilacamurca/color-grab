@@ -1,10 +1,12 @@
 ========================================================												                                                           
   Color-grab   					 
-    An easy way to grab a color from everywhere.																			
+    An easy way to grab a color from everywhere on the screen.										
   
   Author
     Átila Camurça - camurca.home_AT_gmail.com
 
+  Version 1.0 and 1.1
+  ------------------------------------------------------
   How to use
     You just need to have zenity installed. Then in a console just hit:
       $ sh color-grab.sh
@@ -13,6 +15,25 @@
     $ sudo apt-get install zenity
 
   OBS.: this script only works on zenity version 2.32 or greater.
+  
+  Version 2.0
+  ------------------------------------------------------
+  How to use
+    You need ruby1.8 libglade2-ruby1.8 installed. Then in a console just hit:
+      $ ruby color-grab.rb
+      
+    or python
+      
+      $ python color-grab.py
+      
+   Install ruby | python on Ubuntu
+     $ sudo apt-get install ruby1.8 libglade2-ruby1.8
+     
+     or
+     
+     $ sudo apt-get intall python
+     
+   Or simple install the deb version.
 
   Visit: http://mad3linux.blogspot.com/
 ========================================================
